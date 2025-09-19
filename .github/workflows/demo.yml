@@ -1,0 +1,10 @@
+name: Demo - Print Full Name
+on:
+  workflow_dispatch:
+
+jobs:
+  say-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my full name
+        run: echo "Jordi Gras Lorenzo"
